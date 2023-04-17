@@ -6,3 +6,23 @@
     color:#02b875;
     transition: 0.5s;
 }
+
+.hero .overlay {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .hero .overlay .hide {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  .hero .box .icon:hover .show {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+  .hero .box .icon:hover .hide,
+  .hero .box:hover .overlay {
+    opacity: 1;
+  }
+  
+  

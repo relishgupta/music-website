@@ -1,3 +1,11 @@
+import c1 from './images/c1.jpg';
+import c2 from './images/c2.jpg';
+import c3 from './images/c3.jpg';
+import b1 from './images/b1.jpg';
+import b2 from './images/b2.jpg';
+import b3 from './images/b3.jpg';
+import b4 from './images/b4.jpg';
+
 export const navBar = [
   {
     id: 1,
@@ -25,19 +33,19 @@ export const hero1 = [
     id: 1,
     name: "New Album from Nouvelle",
     tag: "Nouvelle",
-    cover: "./images/c1.jpg",
+    cover: c1,
   },
   {
     id: 2,
     name: "Bind Me",
     tag: "Fifty",
-    cover: "./images/c2.jpg",
+    cover: c2,
   },
   {
     id: 3,
     name: "New Track from Pablo Nouvelle",
     tag: "Pablo Nouvelle",
-    cover: "./images/c3.jpg",
+    cover: c3,
   },
 ]
 export const hero2 = [
@@ -45,25 +53,25 @@ export const hero2 = [
     id: 1,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "./images/b4.jpg",
+    cover: b4,
   },
   {
     id: 2,
     name: "Fireworks",
     tag: "Kygo",
-    cover: "./images/b1.jpg",
+    cover: b1,
   },
   {
     id: 3,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "./images/b2.jpg",
+    cover: b2,
   },
   {
     id: 4,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "./images/b3.jpg",
+    cover: b3,
   },
 ]
 export const trending = [
