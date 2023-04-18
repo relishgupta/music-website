@@ -1,7 +1,8 @@
 import Hero from "../../components/home/hero";
-// import New from "../../components/home/new";
-// import Recommend from "../../components/home/recommend";
-// import Trending from "../../components/home/trending";
+import New from "../../components/home/new";
+import Recommend from "../../components/home/recommend";
+import Trending from "../../components/home/trending";
+
 import LayoutSidebar from "../../components/layoutSidebar/layoutSidebar";
 
 const Discover = () => {
@@ -9,9 +10,9 @@ const Discover = () => {
     <>
       <Hero />
       <LayoutSidebar>
-        {/* <Trending /> */}
-        {/* <New /> */}
-        {/* <Recommend /> */}
+        <Trending />
+        <New />
+        <Recommend />
       </LayoutSidebar>
     </>
   )

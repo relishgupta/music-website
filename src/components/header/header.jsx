@@ -17,7 +17,7 @@ const Header=()=>{
                         <div>
                             <CrwnLogo width='40px' height='40px' />
                         </div>
-                        <h2 className="text-2xl font-semibold ml-3">CrownTunes</h2>
+                        <h2 className="text-2xl font-semibold ml-3 mt-1">CrownTunes</h2>
                     </div>
                     {/* navlinks */}
                     <div className="menu">
