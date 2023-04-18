@@ -18,7 +18,7 @@ useEffect(() => {
   return () => {
     window.removeEventListener("scroll", isSticky)
   }
-}, [sidebarTop])
+})
 
 const isSticky=(e)=>{
   const sidebarEl=document.querySelector('.sidebar');
